@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; 
+    max-width: 400px; 
+    box-sizing: border-box;
+    margin: 0 20px; 
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+input[type="submit"], .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 0; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+    margin-top: 12px; 
+    font-size: 16px; 
+}
+
+input[type="submit"]:hover, .button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    display: block; 
+    margin-top: 12px; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries para adaptar el diseño a pantallas pequeñas */
+@media (max-width: 480px) {
+    body {
+        padding: 10px; 
+    }
+
+    .container {
+        padding: 20px; 
+        margin: 20px; 
+        max-width: 350px; 
+    }
+
+    input[type="text"], input[type="password"] {
+        width: calc(100% - 20px); 
+        padding: 12px; 
+    }
+
+    input[type="submit"], .button {
+        padding: 12px 0; 
+        font-size: 16px; 
+    }
+}

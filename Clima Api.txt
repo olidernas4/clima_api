@@ -1,0 +1,3 @@
+C:\xampp\htdocs\CLIMA_API
+http://localhost/CLIMA_API/user_register.php
+http://localhost/CLIMA_API/login.php entrar mas rapido
